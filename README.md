@@ -116,7 +116,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the administrator login logs.
 
-   - [Admin Logins](Resources/administrator_logs.csv0
+   - [Admin Logins](Resources/administrator_logs.csv)
 
    ![admin_file](Screenshots/admin_logs_dl_ss.png)
 
