@@ -41,7 +41,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the following file of the system speeds around the time of the attack.
 
-   [Speed Test File](Resources/server_speedtest.csv)
+   - [Speed Test File](Resources/server_speedtest.csv)
 
    ![speedtest_file](Screenshots/speedtest_dl_ss.png)
 
@@ -79,7 +79,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the following file from the Nessus vulnerability scan.
 
-   Nessus Scan Results
+   - [Nessus Scan Results](Resources/nessus_logs.csv)
 
    ![nessus_file](Screenshots/nessus_dl_ss.png)
 
@@ -116,7 +116,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the administrator login logs.
 
-   Admin Logins
+   - [Admin Logins](Resources/administrator_logs.csv0
 
    ![admin_file](Screenshots/admin_logs_dl_ss.png)
 
