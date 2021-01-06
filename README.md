@@ -79,7 +79,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the following file from the Nessus vulnerability scan.
 
-   - [Nessus Scan Results](Resources/nessus_logs.csv)
+   > [Nessus Scan Results](Resources/nessus_logs.csv)
 
    ![nessus_file](Screenshots/nessus_dl_ss.png)
 
@@ -116,7 +116,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Upload the administrator login logs.
 
-   - [Admin Logins](Resources/administrator_logs.csv)
+   > [Admin Logins](Resources/administrator_logs.csv)
 
    ![admin_file](Screenshots/admin_logs_dl_ss.png)
 
