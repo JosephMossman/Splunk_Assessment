@@ -63,11 +63,11 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
    - Based on the report created, what is the approximate date and time of the attack?
 
-   > **Answer:** 02/20/2020 at 2:21 pm UTC to 02/24/2020 at 8:30 pm UTC.
+      - **Answer:** 02/20/2020 at 2:21 pm UTC to 02/24/2020 at 8:30 pm UTC.
 
    - How long did it take your systems to recover?
 
-   > **Answer:** It took 4 days, 6 hours and 9 minutes for our systems to recover.
+      - **Answer:** It took 4 days, 6 hours and 9 minutes for our systems to recover.
 
 ### Step 2: Are We Vulnerable?
 
@@ -92,7 +92,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 - Create a report using the Splunk's table command to display the following fields of your results.
 
-   ![vulnerability_table](vulnerability_table_report.png)
+   ![vulnerability_table](Screenshots/vulnerability_table_report.png)
 	
 - Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
@@ -118,15 +118,15 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
    Admin Logins
 
-   ![admin_file](admin_logs_dl_ss.png)
+   ![admin_file](Screenshots/admin_logs_dl_ss.png)
 
 - When did the brute force attack occur?
 
-   > **Answer:** 2/21/2020 at 9:00 am to 2/21/2020 at 1:00 pm.
+   - **Answer:** 2/21/2020 at 9:00 am to 2/21/2020 at 1:00 pm.
 
 - Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
 
-   > **Answer:** We determined a baseline of 35 attempts per hour, with a threshold of 45 attempts per hour.
+   - **Answer:** We determined a baseline of 35 attempts per hour, with a threshold of 45 attempts per hour.
 
 - Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered.
 
@@ -140,6 +140,6 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
    > Step 3: Submit the alert.
 
-   ![brute_force_alert_final](Screenshots/brute_attack_alert_ss.png)
+   ![brute_force_alert_final](Screenshots/brute_force_attack_alert_ss.png)
 
 
